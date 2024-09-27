@@ -1,0 +1,28 @@
+^C:\USERS\HASWA.HASWANTH\DOWNLOADS\2024REALTIMEFACERECOGNITIONFLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\BD73DD4AB9ED946B59428DDBD7558B8B\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\haswa.HASWANTH\Downloads\flutter PROJECT_DIR=C:\Users\haswa.HASWANTH\Downloads\2024RealtimeFaceRecognitionFlutter FLUTTER_ROOT=C:\Users\haswa.HASWANTH\Downloads\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\haswa.HASWANTH\Downloads\2024RealtimeFaceRecognitionFlutter\windows\flutter\ephemeral PROJECT_DIR=C:\Users\haswa.HASWANTH\Downloads\2024RealtimeFaceRecognitionFlutter FLUTTER_TARGET=C:\Users\haswa.HASWANTH\Downloads\2024RealtimeFaceRecognitionFlutter\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\haswa.HASWANTH\Downloads\2024RealtimeFaceRecognitionFlutter\.dart_tool\package_config.json C:/Users/haswa.HASWANTH/Downloads/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HASWA.HASWANTH\DOWNLOADS\2024REALTIMEFACERECOGNITIONFLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\CEFF80D4E5558DA336AEDBC71A3807E3\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HASWA.HASWANTH\DOWNLOADS\2024REALTIMEFACERECOGNITIONFLUTTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/haswa.HASWANTH/Downloads/2024RealtimeFaceRecognitionFlutter/windows -BC:/Users/haswa.HASWANTH/Downloads/2024RealtimeFaceRecognitionFlutter/build/windows/x64 --check-stamp-file C:/Users/haswa.HASWANTH/Downloads/2024RealtimeFaceRecognitionFlutter/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
